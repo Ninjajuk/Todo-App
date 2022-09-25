@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FF8433;
+  box-sizing: border-box;
+}
+
+.todocard{
+  background-color: white;
+  margin: 60px auto;
+  width:30%;
+  height:80vh;
+  position: relative;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.card-header{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text{
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+}
+
+.card-content{
+  width: 100%;
+  height: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.content-data{
+  width: 95%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.list-group{
+  overflow: auto;
+  height: 100%;
+  margin: 8px;
+  list-style-type: auto;
+  padding-inline-start: 32px;
+  padding-inline-end: 10px;
+}
+
+.list-group li {
+  padding: 8px;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.list-group li:hover {
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.list-group li.active {
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-footer{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.input-field{
+  width: 80%;
+  margin: 0 auto;
+  height: 24px;
+  outline: none;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.footer-buttons{
+  width: 100%;
+  margin: 10px 30px;
+}
+
+.buttons{
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
